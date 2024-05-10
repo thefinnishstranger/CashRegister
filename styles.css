@@ -1,0 +1,61 @@
+
+html, body, header, main {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+/* Change due container */
+#change-due {
+  margin-bottom: 20px;
+}
+
+
+#input-form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+
+#total-price {
+  margin-r
