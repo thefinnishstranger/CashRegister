@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body>
+    <header>
+      <h1>Cash Register Project</h1>
+      <div id="change-due">
+      </div>
+      <div id="change-values">
+        <p id="state"></p>
+        <p id="penny"></p>
+        <p id="nickle"></p>
+        <p id="dime"></p>
+        <p id="quarter"></p>
+        <p id="dollar"></p>
+        <p id="five-dollar"></p>
+        <p id="ten-dollar"></p>
+        <p id="twenty-dollar"></p>
+        <p id="hundred-dollar"></p>
+      </div>
+      <form id="input-form">
+        <label for="cash-input-question">Enter the amount of cash the customer has given:</label>
+        <input type="number" id="cash" min="0" max="350">
+        <button type="button" id="purchase-btn">Purchase</button>
+      </form>
+    </header>
+    <main>
+      <div id="total-price">
+        <p id="total"></p>
+      </div>
+      <div id="register">
+        <p id="change-text">Change in drawer:</p>
+        <p id="pennies"><p>
+        <p id="nickles"></p>
+        <p id="dimes"></p>
+        <p id="quarters"></p>
+        <p id="one-dollars"></p>
+        <p id="five-dollars"></p>
+        <p id="ten-dollars"></p>
+        <p id="twenty-dollars"></p>
+        <p id="hundred-dollars"></p>
+      </div>
+
+    <main>
+    <script src="./script.js"></script>
+  </body>
+
+
+  </html>
